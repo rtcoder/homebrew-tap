@@ -1,10 +1,10 @@
 class Devdoctor < Formula
   desc "Developer diagnostics for humans"
   homepage "https://github.com/rtcoder/devdoctor"
-  url "https://github.com/rtcoder/devdoctor/releases/download/v1.38.2/devdoctor.phar"
-  sha256 "5e79b73ab9488b5ccb51ba3193b36efd50d41b2db0c335de0d5989190ce03b26"
+  url "https://github.com/rtcoder/devdoctor/releases/download/v1.39.0/devdoctor.phar"
+  sha256 "6cb46ce88821008616ec7c5aecc91d586d89b1737da7a72ce74e32bd2174f546"
   license "MIT"
-  version "1.38.2"
+  version "1.39.0"
 
   depends_on "php"
 
