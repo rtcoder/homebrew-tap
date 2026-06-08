@@ -2,25 +2,25 @@ class Devdoctor < Formula
   desc "Developer diagnostics for humans"
   homepage "https://github.com/rtcoder/devdoctor"
   license "MIT"
-  version "1.43.0"
+  version "1.44.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rtcoder/devdoctor/releases/download/v1.43.0/devdoctor-macos-arm64"
-      sha256 "49dff8ba14af09a210e4e0cb9cf2c4b64ea1ce588fb12f9a57ae1f668156d165"
+      url "https://github.com/rtcoder/devdoctor/releases/download/v1.44.0/devdoctor-macos-arm64"
+      sha256 "6bd53d54cfa4329ee061723a9cb23a683feb5ae28a93be759965da5e3d0de1e9"
     else
-      url "https://github.com/rtcoder/devdoctor/releases/download/v1.43.0/devdoctor-macos-x64"
-      sha256 "47198c6fce37f0432319eaffd3cd9446423f68857440db447038e439867f9eb4"
+      url "https://github.com/rtcoder/devdoctor/releases/download/v1.44.0/devdoctor-macos-x64"
+      sha256 "48414d30f8e57a8319aebeeffe572b79d0e74da2ecc54cd87af95e3163abd7eb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rtcoder/devdoctor/releases/download/v1.43.0/devdoctor-linux-arm64"
-      sha256 "abf82209b5f73f8978a6810a11e2426009769ae6c52de852bbffd0f46bb9539d"
+      url "https://github.com/rtcoder/devdoctor/releases/download/v1.44.0/devdoctor-linux-arm64"
+      sha256 "1296053f41de538af43b3d21676873c5b126d0cf1231ba1b9dcd69356494e3de"
     else
-      url "https://github.com/rtcoder/devdoctor/releases/download/v1.43.0/devdoctor-linux-x64"
-      sha256 "4dfb4cfbea05cd8d9fa340943bc37fc34676c36ba6ea04ca833ac871375af8b8"
+      url "https://github.com/rtcoder/devdoctor/releases/download/v1.44.0/devdoctor-linux-x64"
+      sha256 "ff5a9c659a040d60a2a8a292a2afcf827d8500aade8f5f93f7ff82cf58e3c4d5"
     end
   end
 
