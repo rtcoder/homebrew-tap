@@ -2,26 +2,26 @@ class Ytrack < Formula
   desc "YouTrack CLI with global and per-project configuration"
   homepage "https://github.com/rtcoder/ytrack"
   license "MIT"
-  version "0.1.11"
+  version "0.1.12"
   head "https://github.com/rtcoder/ytrack.git", branch: "main"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rtcoder/ytrack/releases/download/v0.1.11/ytrack_0.1.11_darwin_arm64.tar.gz"
-      sha256 "4179fff604cd3b2bf9731e54538b9a0a70a1f42afd9a49b41df73c88df4405a9"
+      url "https://github.com/rtcoder/ytrack/releases/download/v0.1.12/ytrack_0.1.12_darwin_arm64.tar.gz"
+      sha256 "a584e601c6223111b0a8b64d2c3808e3bca685040698fb2ca2a2f32ca3264b6b"
     else
-      url "https://github.com/rtcoder/ytrack/releases/download/v0.1.11/ytrack_0.1.11_darwin_amd64.tar.gz"
-      sha256 "8f826505a705d81cd013291ecb938bc417a1c77879f30a730ab9779f78e2fe16"
+      url "https://github.com/rtcoder/ytrack/releases/download/v0.1.12/ytrack_0.1.12_darwin_amd64.tar.gz"
+      sha256 "88e44262c667d9f3837db438c3de1240af018d905723eea3ff091f5762982f57"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rtcoder/ytrack/releases/download/v0.1.11/ytrack_0.1.11_linux_arm64.tar.gz"
-      sha256 "0c6e2c8e1c927cededfb0e3d1b40c39b1d4650189fc367594beb2eaa89f5a590"
+      url "https://github.com/rtcoder/ytrack/releases/download/v0.1.12/ytrack_0.1.12_linux_arm64.tar.gz"
+      sha256 "cef0f6100efede4d27f7b66486003e68ae25dc963916255394c8e0f3227e4c7d"
     else
-      url "https://github.com/rtcoder/ytrack/releases/download/v0.1.11/ytrack_0.1.11_linux_amd64.tar.gz"
-      sha256 "bba9efe0ddecbe9704ae23a918c5137831847d41ac1d38087da85fc1e1627637"
+      url "https://github.com/rtcoder/ytrack/releases/download/v0.1.12/ytrack_0.1.12_linux_amd64.tar.gz"
+      sha256 "dd45267c81c0c4fa68f8cdd7f70269fb06d2de93d0e935c9d2fab9871d44cdad"
     end
   end
 
